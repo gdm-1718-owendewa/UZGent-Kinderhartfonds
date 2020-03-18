@@ -2,7 +2,7 @@ const videos = [
     
     {
         title: 'Intro',
-        img: 'images/mascot/Intro.png',
+        img: 'images/mascot/intro.png',
         src: 'https://player.vimeo.com/video/395416981'
     },
     {
