@@ -2,12 +2,12 @@ const videos = [
     
     {
         title: 'Intro',
-        img: '../images/mascot/Intro.png',
+        img: '../images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395416981'
     },
     {
         title: 'Overzicht',
-        img: '../images/mascot/Intro.png',
+        img: '../images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395340050'
     },
     {
