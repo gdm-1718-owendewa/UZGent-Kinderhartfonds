@@ -12,42 +12,42 @@ const videos = [
     },
     {
         title: 'Blauw-voorkamer-ani',
-        img: '../images/mascot/Rechtervoorkamer-scherm.png',
+        img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395417540'
     },
     {
         title: 'blauw-voorkamer-3D',
-        img: '../images/mascot/Rechtervoorkamer-scherm.png',
+        img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
         title: 'Blauw-voorkamer',
-        img: '../images/mascot/DeLongen.png',
+        img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/397093454'
     },
     {
         title: 'Blauw-kamer',
-        img: '../images/mascot/DeLongen.png',
+        img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
         title: 'Rood-voorkamer-ani',
-        img: '../images/mascot/Linkervoorkamer-scherm.png',
+        img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/397093709'
     },
     {
         title: 'Rood-voorkamer-3D',
-        img: '../images/mascot/Linkervoorkamer-scherm.png',
+        img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341613'
     },
     {
         title: 'rood-kamer-ani',
-        img: '../images/mascot/NaarHetLichaam-scherm.png',
+        img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/397093770'
     },
     {
         title: 'rood-kamer',
-        img: '../images/mascot/NaarHetLichaam-scherm.png',
+        img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/397133404'
     },
    
