@@ -199,7 +199,8 @@ header #Ugent-logo{
         padding-bottom: 5%;
     }
     #navMenu a img{
-        max-width:300px;
+        max-width:500px;
+        width:100%;
     }
     
     #navMenu .navMenuButton{
