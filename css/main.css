@@ -38,8 +38,8 @@
     color:#2467c5;
 }
 #navMenu a img{
-    max-width:400px;
-    width:100%;
+    max-width:500px;
+    width:150%;
 }
 
 #navMenu .navMenuButton{
@@ -155,10 +155,6 @@ header #Ugent-logo{
     header #Ugent-logo{
         margin-right:10%;
     }
-    #navMenu a img{
-        max-width:300px;
-    }
-    
     #navMenu .navMenuButton{
         padding-top :10%;
     }
@@ -198,11 +194,6 @@ header #Ugent-logo{
         font-family: UZGNormal;
         padding-bottom: 5%;
     }
-    #navMenu a img{
-        max-width:500px;
-        width:100%;
-    }
-    
     #navMenu .navMenuButton{
         padding-top :15%;
     }
