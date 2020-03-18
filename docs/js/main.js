@@ -12,12 +12,12 @@ const videos = [
     },
     {
         title: 'Blauw-voorkamer-ani',
-        img: '../images/Mascot/Rechtervoorkamer-scherm.png',
+        img: '../images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395417540'
     },
     {
         title: 'blauw-voorkamer-3D',
-        img: '../images/Mascot/Rechtervoorkamer-scherm.png',
+        img: '../images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
