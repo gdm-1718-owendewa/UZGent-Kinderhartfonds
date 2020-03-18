@@ -39,6 +39,7 @@
 }
 #navMenu a img{
     max-width:200px;
+    width:50%;
 }
 
 #navMenu .navMenuButton{
