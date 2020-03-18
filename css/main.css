@@ -31,7 +31,8 @@
 }
 #navMenu a{
     float: left;
-    width:33.33%;
+    width:28,33%;
+    margin-left:5%;
     text-align:center;
     text-decoration: none;
     color:#2467c5;
