@@ -1,0 +1,210 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: UZGSemiBold;
+    src: url(../font/ugentpannotext-semibold-web.woff);
+  }
+@font-face {
+    font-family: UZGNormal;
+    src: url(../font/ugentpannotext-normal-web.woff);
+}
+#videoBox{
+    margin:5% auto;
+    width: 100vw;
+    height:50vh;
+    overflow:hidden; 
+   
+}
+#videoDisplay iframe{
+    width: 90vw;
+    height:50vh;
+    margin-left:5vw;
+    border:none;
+}
+#navMenu {
+    max-width:40%;
+    margin-left:30%;
+    margin-top:2.5%;  
+    margin-bottom:8%;
+}
+#navMenu a{
+    float: left;
+    width:33.33%;
+    text-align:center;
+    vertical-align: middle;
+    text-decoration: none;
+    color:#2467c5;
+}
+#navMenu a img{
+    max-width:300px;
+}
+
+#navMenu .navMenuButton{
+    padding-top :10%;
+}
+#navMenu .navMenuButton img{
+   max-width :15%;
+}
+header{
+    padding-top:1.5%;
+    padding-bottom:2%;
+    font-family: UZGSemiBold;
+    background-color: #2467c5;
+}
+header nav ul li {
+    display:inline;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+header nav ul li + li{
+    margin-left:1%;
+}
+header nav ul li a{
+    text-decoration: none;
+    vertical-align: bottom;
+    color:#fff;
+
+}
+header #UZ-logo img{
+    max-width:185px;
+}
+header #Ugent-logo img{
+    max-width:85px;
+}
+header #UZ-logo{
+    margin-left:15%;
+    margin-right:1%;
+}
+header #Ugent-logo{
+    margin-right:10%;
+}
+
+#infoVideos{
+    height: 100vh;
+    background-color:#2467c5;
+    color:#fff;
+    font-family: UZGNormal;
+
+
+}
+#infoVideos h1{
+    font-size:3em;
+    margin-left:5vw;
+    padding-top:5vh;
+}
+#infoVideos .infoVideo{
+    max-width:40%;
+    float:left;
+    margin: 0% 5%;
+}
+.infoVideo iframe{
+    width:100%;
+    height:400px;
+    border:none;
+    margin-top:15vh;
+
+}
+
+.infoVideoText h2{
+    margin-top:3%;
+}
+.infoVideoText p{
+    margin-top:3%;
+}
+#footer{
+    font-family: UZGNormal;
+    max-width:80%;
+    margin-left:10%;
+
+}
+#footer #ArtFooter{
+    float:right;
+}
+#footer a,span {
+    text-decoration:none;
+    color :#2467c5;
+}
+#uzg-footer{
+    margin-top:3%;
+    padding-top:3%;
+    padding-bottom:3%;
+    border-top:1px solid #2467c5;
+}
+#general-links{
+    margin-top:5%;
+    padding-top:3%;
+    border-top:1px solid #2467c5;
+
+}
+.clearfix {
+    overflow: auto;
+  }
+
+  @media only screen and (max-width: 911px) {
+
+    header #UZ-logo img{
+        max-width:20%;
+    }
+    header #UZ-logo{
+        margin-left:5%;
+        margin-right:1%;
+    }
+    header #Ugent-logo{
+        margin-right:10%;
+    }
+    #navMenu a img{
+        max-width:100px;
+    }
+    
+    #navMenu .navMenuButton{
+        padding-top :10%;
+    }
+    #navMenu .navMenuButton img{
+       max-width :30%;
+    }
+    .infoVideo iframe{
+        width:100%;
+        height:400px;
+        border:none;
+        margin-top:5vh;
+    
+    }
+  }
+  @media only screen and (max-width: 749px) {
+    header nav ul li a{
+        text-align:center;
+        width:100%;
+        display:block;
+    }
+    #UZ-logo, #Ugent-logo{
+        display: none;
+    }
+    #logo-box{
+        margin-top:2%;
+        margin-bottom:2%;
+        text-align: center;
+    }
+    #infoVideos .infoVideo{
+        max-width:90%;
+        float:left;
+    }
+    #infoVideos{
+        height: 100%;
+        background-color:#2467c5;
+        color:#fff;
+        font-family: UZGNormal;
+        padding-bottom: 5%;
+    }
+    #navMenu a img{
+        max-width:80px;
+    }
+    
+    #navMenu .navMenuButton{
+        padding-top :15%;
+    }
+    #navMenu .navMenuButton img{
+       max-width :30%;
+    }
+  }
