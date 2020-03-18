@@ -163,7 +163,7 @@ header #Ugent-logo{
         padding-top :10%;
     }
     #navMenu .navMenuButton img{
-       max-width :30%;
+       max-width :80%;
     }
     .infoVideo iframe{
         width:100%;
@@ -206,6 +206,6 @@ header #Ugent-logo{
         padding-top :15%;
     }
     #navMenu .navMenuButton img{
-       max-width :30%;
+       max-width :80%;
     }
   }
