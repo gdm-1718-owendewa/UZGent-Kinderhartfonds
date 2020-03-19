@@ -25,13 +25,13 @@
 }
 #navMenu {
     max-width:50%;
-    margin-left:30%;
+    margin-left:25%;
     margin-top:2.5%;  
     margin-bottom:8%;
 }
 #navMenu a{
     float: left;
-    width:28,33%;
+    width:28.33%;
     margin-left:5%;
     text-align:center;
     text-decoration: none;
