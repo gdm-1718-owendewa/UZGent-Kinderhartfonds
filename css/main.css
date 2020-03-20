@@ -6,21 +6,31 @@
     font-family: UZGSemiBold;
     src: url(../font/ugentpannotext-semibold-web.woff);
   }
+  @font-face {
+    font-family: UZGSemiLight;
+    src: url(../font/ugentpannotext-semilight-web.woff);
+  }
 @font-face {
     font-family: UZGNormal;
     src: url(../font/ugentpannotext-normal-web.woff);
 }
 #videoBox{
     margin:0% auto;
-    margin-top:3%;
+    margin-top:2%;
     width: 100vw;
     height:50vh;
     overflow:hidden; 
    
 }
 #videoText{
-    max-width:30%;
-    margin:2% auto;
+    max-width:35%;
+    max-height: 40px   ;
+    margin:1% auto;
+    font-family: UZGSemiLight;
+    font-style: italic;
+    font-size: 14px;
+    text-align:center;
+    color:#888;
 }
 #videoDisplay iframe{
     width: 90vw;
@@ -31,7 +41,7 @@
 #navMenu {
     max-width:50%;
     margin-left:25%;
-    margin-top:2.5%;  
+    margin-top:5%;  
     margin-bottom:8%;
 }
 #navMenu a{
@@ -48,7 +58,7 @@
 }
 
 #navMenu .navMenuButton{
-    padding-top :7.5%;
+    margin-top:5%;
 }
 #navMenu .navMenuButton img{
    max-width :15%;
@@ -147,7 +157,11 @@ header #Ugent-logo{
 .clearfix {
     overflow: auto;
   }
-
+  @media only screen and (max-width: 1100px) {
+      #videoText{
+          max-width:50%;
+      }
+  }
   @media only screen and (max-width: 911px) {
 
     header #UZ-logo img{
@@ -161,10 +175,10 @@ header #Ugent-logo{
         margin-right:10%;
     }
     #navMenu .navMenuButton{
-        padding-top :10%;
+        padding-top :2%;
     }
     #navMenu .navMenuButton img{
-       max-width :30%;
+       max-width :15%;
     }
     .infoVideo iframe{
         width:100%;
@@ -175,6 +189,9 @@ header #Ugent-logo{
     }
   }
   @media only screen and (max-width: 749px) {
+    #videoText{
+        max-width:75%;
+    }
     header nav ul li a{
         text-align:center;
         width:100%;
@@ -200,9 +217,9 @@ header #Ugent-logo{
         padding-bottom: 5%;
     }
     #navMenu .navMenuButton{
-        padding-top :15%;
+        padding-top :2%;
     }
     #navMenu .navMenuButton img{
-       max-width :30%;
+       max-width :25%;
     }
   }

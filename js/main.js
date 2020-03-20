@@ -2,87 +2,87 @@ const videos = [
     
     {
         title: 'Intro',
-        text: 'Dit is tekst 1-2',
+        text: '"Dit is Ery! Samen met zijn vrienden, de rode bloedcellen, draagt hij een rugzak doorheen je lichaam met de afvalstof C02 en met zuurstof in. onvermoeibaar de hele dag en nacht door. Ze leggen daarbij een hele weg af. Kom, dan laat ik je zien hoe de reis door je hart en je lichaam eruit ziet."',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/399136008'
     },
     {
         title: 'Overzicht',
-        text: 'Dit is tekst 1-2',
+        text: '"Dit is Ery! Samen met zijn vrienden, de rode bloedcellen, draagt hij een rugzak doorheen je lichaam met de afvalstof C02 en met zuurstof in. onvermoeibaar de hele dag en nacht door. Ze leggen daarbij een hele weg af. Kom, dan laat ik je zien hoe de reis door je hart en je lichaam eruit ziet."',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395340050'
     },
     {
         title: 'Blauw-voorkamer-ani',
-        text: 'Dit is tekst 3-4',
+        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer. "',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399157811'
     },
     {
         title: 'blauw-voorkamer-3D',
-        text: 'Dit is tekst 3-4',
+        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer. "',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
         title: 'Pomp-blauw-ani',
-        text: 'Dit is tekst 5-6',
+        text: '"En dan gebeurt er iets spannends: de rechter kamer begint samen te trekken en de kamer wordt steeds kleiner en kleiner. Alle bloedcellen worden dichter op elkaar gedrukt en dan vliegt de deur van de longslagaderklep open. De rechter kamer heeft hen met een grote kracht weggeduwd. De rechter kamer is net een fietspomp. Via de longslagader reizen ze nu pijlsnel richting de longen."',
         img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/399180142'
     },
     {
         title: 'pomp-blauw-3D',
-        text: 'Dit is tekst 5-6',
+        text: '"En dan gebeurt er iets spannends: de rechter kamer begint samen te trekken en de kamer wordt steeds kleiner en kleiner. Alle bloedcellen worden dichter op elkaar gedrukt en dan vliegt de deur van de longslagaderklep open. De rechter kamer heeft hen met een grote kracht weggeduwd. De rechter kamer is net een fietspomp. Via de longslagader reizen ze nu pijlsnel richting de longen."',
         img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
         title: 'De longen',
-        text: 'Dit is tekst 7-8',
+        text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
         img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/399201713'
     },
     {
         title: 'overview',
-        text: 'Dit is tekst 7-8',
+        text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395340050'
     },
     {
         title: 'Rood-voorkamer-ani',
-        text: 'Dit is tekst 9-10',
+        text: '"Tijd om met de rugzakjes met zuurstof naar het lichaam te vertrekken. Onze eerste halte : de linker voorkamer. Net als in de rechter voorkamer, wacht Ery hier opnieuw tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, kunnen ze vertrekken naar de linker kamer."',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399227821'
     },
     {
         title: 'Rood-voorkamer-3D',
-        text: 'Dit is tekst 9-10',
+        text: '"Tijd om met de rugzakjes met zuurstof naar het lichaam te vertrekken. Onze eerste halte : de linker voorkamer. Net als in de rechter voorkamer, wacht Ery hier opnieuw tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, kunnen ze vertrekken naar de linker kamer."',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341613'
     },
     {
         title: 'Rood-pom-ani',
-        text: 'Dit is tekst 11-12',
-        img: 'images/mascot/Linkervoorkamer-scherm.png',
+        text: '"De linker kamer begint samen te trekken en wordt steeds kleiner. Alle bloedcellen worden opnieuw dichter op elkaar gedrukt. Ja, ook de linker kamer is een pomp die de bloedcellen onder hoge snelheid wegpompt. Alleen gaat de tocht nu richting het lichaam.  "',
+        img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/399223089'
     },
     {
         title: 'Rood-pomp-3D',
-        text: 'Dit is tekst 11-12',
-        img: 'images/mascot/Linkervoorkamer-scherm.png',
+        text: '"De linker kamer begint samen te trekken en wordt steeds kleiner. Alle bloedcellen worden opnieuw dichter op elkaar gedrukt. Ja, ook de linker kamer is een pomp die de bloedcellen onder hoge snelheid wegpompt. Alleen gaat de tocht nu richting het lichaam."',
+        img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/397133404'
     },
     {
         title: 'rood-kamer-ani',
-        text: 'Dit is tekst 13-14',
+        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken we weer, met een volle rugzak vol CO2 richting de longen."',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/399212070'
     },
     {
         title: 'rood-kamer',
-        text: 'Dit is tekst 13-14',
+        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken we weer, met een volle rugzak vol CO2 richting de longen"',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
-        src: 'https://player.vimeo.com/video/395340050'
+        src: 'https://player.vimeo.com/video/399308161'
     },
    
 ];
