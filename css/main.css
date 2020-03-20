@@ -83,7 +83,7 @@ header #Ugent-logo{
 }
 
 #infoVideos{
-    height: 100vh;
+    padding-bottom:5%;
     background-color:#2467c5;
     color:#fff;
     font-family: UZGNormal;

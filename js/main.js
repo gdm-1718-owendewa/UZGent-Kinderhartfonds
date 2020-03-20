@@ -3,7 +3,7 @@ const videos = [
     {
         title: 'Intro',
         img: 'images/mascot/Intro.PNG',
-        src: 'https://player.vimeo.com/video/395416981'
+        src: 'https://player.vimeo.com/video/399136008'
     },
     {
         title: 'Overzicht',
@@ -13,7 +13,7 @@ const videos = [
     {
         title: 'Blauw-voorkamer-ani',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
-        src: 'https://player.vimeo.com/video/395417540'
+        src: 'https://player.vimeo.com/video/399157811'
     },
     {
         title: 'blauw-voorkamer-3D',
@@ -21,19 +21,29 @@ const videos = [
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
-        title: 'Blauw-voorkamer',
+        title: 'Pomp-blauw-ani',
         img: 'images/mascot/DeLongen.png',
-        src: 'https://player.vimeo.com/video/397093454'
+        src: 'https://player.vimeo.com/video/399180142'
     },
     {
-        title: 'Blauw-kamer',
+        title: 'pomp-blauw-3D',
         img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
+        title: 'De longen',
+        img: 'images/mascot/DeLongen.png',
+        src: 'https://player.vimeo.com/video/399201713'
+    },
+    {
+        title: 'overview',
+        img: 'images/mascot/Intro.PNG',
+        src: 'https://player.vimeo.com/video/395340050'
+    },
+    {
         title: 'Rood-voorkamer-ani',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
-        src: 'https://player.vimeo.com/video/397093709'
+        src: 'https://player.vimeo.com/video/399227821'
     },
     {
         title: 'Rood-voorkamer-3D',
@@ -41,14 +51,24 @@ const videos = [
         src: 'https://player.vimeo.com/video/395341613'
     },
     {
+        title: 'Rood-pom-ani',
+        img: 'images/mascot/Linkervoorkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/399223089'
+    },
+    {
+        title: 'Rood-pomp-3D',
+        img: 'images/mascot/Linkervoorkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/397133404'
+    },
+    {
         title: 'rood-kamer-ani',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
-        src: 'https://player.vimeo.com/video/397093770'
+        src: 'https://player.vimeo.com/video/399212070'
     },
     {
         title: 'rood-kamer',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
-        src: 'https://player.vimeo.com/video/397133404'
+        src: 'https://player.vimeo.com/video/395340050'
     },
    
 ];
@@ -139,6 +159,18 @@ const activeVideo = (key) => {
             break;
         case 9:
             display.innerHTML = "<iframe id='currentVideo' src='" + videos[9].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 10:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[10].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 11:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[11].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 12:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[12].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 13:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[13].src+ "?autoplay=1' allow='autoplay' ></iframe>"
             break;
         }
 }
