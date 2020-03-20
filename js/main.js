@@ -2,71 +2,85 @@ const videos = [
     
     {
         title: 'Intro',
+        text: 'Dit is tekst 1-2',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/399136008'
     },
     {
         title: 'Overzicht',
+        text: 'Dit is tekst 1-2',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395340050'
     },
     {
         title: 'Blauw-voorkamer-ani',
+        text: 'Dit is tekst 3-4',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399157811'
     },
     {
         title: 'blauw-voorkamer-3D',
+        text: 'Dit is tekst 3-4',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
         title: 'Pomp-blauw-ani',
+        text: 'Dit is tekst 5-6',
         img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/399180142'
     },
     {
         title: 'pomp-blauw-3D',
+        text: 'Dit is tekst 5-6',
         img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
         title: 'De longen',
+        text: 'Dit is tekst 7-8',
         img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/399201713'
     },
     {
         title: 'overview',
+        text: 'Dit is tekst 7-8',
         img: 'images/mascot/Intro.PNG',
         src: 'https://player.vimeo.com/video/395340050'
     },
     {
         title: 'Rood-voorkamer-ani',
+        text: 'Dit is tekst 9-10',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399227821'
     },
     {
         title: 'Rood-voorkamer-3D',
+        text: 'Dit is tekst 9-10',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341613'
     },
     {
         title: 'Rood-pom-ani',
+        text: 'Dit is tekst 11-12',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399223089'
     },
     {
         title: 'Rood-pomp-3D',
+        text: 'Dit is tekst 11-12',
         img: 'images/mascot/Linkervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/397133404'
     },
     {
         title: 'rood-kamer-ani',
+        text: 'Dit is tekst 13-14',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/399212070'
     },
     {
         title: 'rood-kamer',
+        text: 'Dit is tekst 13-14',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/395340050'
     },
@@ -100,6 +114,8 @@ display.innerHTML = "<iframe id='currentVideo' src=" + videos[0].src+ "></iframe
 let mascot = document.getElementById('mascot');
 let videoInfo = document.getElementById('video-info');
 mascot.src = videos[videoNumber].img;
+let videoText = document.getElementById('videoText');
+videoText.innerHTML = '<p>' + videos[videoNumber].text + '</p>';
 // videoInfo.innerHTML = videoNumber+1 + "/" + videos.length + "<br>" + videos[videoNumber].title;
 
 previous.addEventListener('click', (e)=>{
@@ -112,6 +128,7 @@ previous.addEventListener('click', (e)=>{
         activeVideo(videoNumber)
     }
     mascot.src = videos[videoNumber].img;
+    videoText.innerHTML = '<p>' + videos[videoNumber].text + '</p>';
     // videoInfo.innerHTML = videoNumber+1 + "/" + videos.length + "<br>" + videos[videoNumber].title;
     console.log(videoNumber)
 })
@@ -125,6 +142,7 @@ next.addEventListener('click', (e)=>{
         activeVideo(videoNumber)
     }
     mascot.src = videos[videoNumber].img;
+    videoText.innerHTML = '<p>' + videos[videoNumber].text + '</p>';
     // videoInfo.innerHTML = videoNumber+1 + "/" + videos.length + "<br>" + videos[videoNumber].title;
     console.log(videoNumber)
 })

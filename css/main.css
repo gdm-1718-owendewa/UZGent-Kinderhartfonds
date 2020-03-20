@@ -11,11 +11,16 @@
     src: url(../font/ugentpannotext-normal-web.woff);
 }
 #videoBox{
-    margin:5% auto;
+    margin:0% auto;
+    margin-top:3%;
     width: 100vw;
     height:50vh;
     overflow:hidden; 
    
+}
+#videoText{
+    max-width:30%;
+    margin:2% auto;
 }
 #videoDisplay iframe{
     width: 90vw;
@@ -43,7 +48,7 @@
 }
 
 #navMenu .navMenuButton{
-    padding-top :10%;
+    padding-top :7.5%;
 }
 #navMenu .navMenuButton img{
    max-width :15%;
