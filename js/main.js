@@ -22,12 +22,12 @@ const videos = [
     },
     {
         title: 'Pomp-blauw-ani',
-        img: 'images/mascot/DeLongen.png',
+        img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/399180142'
     },
     {
         title: 'pomp-blauw-3D',
-        img: 'images/mascot/DeLongen.png',
+        img: 'images/mascot/Pomp-blauw.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
@@ -105,7 +105,7 @@ mascot.src = videos[videoNumber].img;
 previous.addEventListener('click', (e)=>{
     e.preventDefault();
     if(videoNumber == 0){
-        videoNumber = 9;
+        videoNumber = 13;
         activeVideo(videoNumber)
     }else{
         videoNumber-- ;   
@@ -117,7 +117,7 @@ previous.addEventListener('click', (e)=>{
 })
 next.addEventListener('click', (e)=>{
     e.preventDefault();
-    if(videoNumber == 9){
+    if(videoNumber == 13){
         videoNumber = 0;
         activeVideo(videoNumber)  
     }else{
