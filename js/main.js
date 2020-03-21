@@ -45,8 +45,8 @@ const videos = [
     {
         title: 'overview',
         text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
-        img: 'images/mascot/Intro.PNG',
-        src: 'https://player.vimeo.com/video/395340050'
+        img: 'images/mascot/DeLongen.png',
+        src: 'https://player.vimeo.com/video/399313327'
     },
     {
         title: 'Rood-voorkamer-ani',
