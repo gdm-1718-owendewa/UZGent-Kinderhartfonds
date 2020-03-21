@@ -27,13 +27,13 @@ const videos = [
     {
         title: 'Pomp-blauw-ani',
         text: '"En dan gebeurt er iets spannends: de rechter kamer begint samen te trekken en de kamer wordt steeds kleiner en kleiner. Alle bloedcellen worden dichter op elkaar gedrukt en dan vliegt de deur van de longslagaderklep open. De rechter kamer heeft hen met een grote kracht weggeduwd. De rechter kamer is net een fietspomp. Via de longslagader reizen ze nu pijlsnel richting de longen."',
-        img: 'images/mascot/Pomp-blauw.png',
+        img: 'images/mascot/Pomp-Blauw.png',
         src: 'https://player.vimeo.com/video/399180142'
     },
     {
         title: 'pomp-blauw-3D',
         text: '"En dan gebeurt er iets spannends: de rechter kamer begint samen te trekken en de kamer wordt steeds kleiner en kleiner. Alle bloedcellen worden dichter op elkaar gedrukt en dan vliegt de deur van de longslagaderklep open. De rechter kamer heeft hen met een grote kracht weggeduwd. De rechter kamer is net een fietspomp. Via de longslagader reizen ze nu pijlsnel richting de longen."',
-        img: 'images/mascot/Pomp-blauw.png',
+        img: 'images/mascot/Pomp-Blauw.png',
         src: 'https://player.vimeo.com/video/395343272'
     },
     {
