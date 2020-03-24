@@ -130,11 +130,10 @@ mascot.src = videos[videoNumber].img;
 let videoText = document.getElementById('videoText');
 videoText.innerHTML = '<p>' + videos[videoNumber].text + '</p>';
 // videoInfo.innerHTML = videoNumber+1 + "/" + videos.length + "<br>" + videos[videoNumber].title;
-
 previous.addEventListener('click', (e)=>{
     e.preventDefault();
     if(videoNumber == 0){
-        videoNumber = 15;
+        videoNumber = videos.length-1;
         activeVideo(videoNumber)
     }else{
         videoNumber-- ;   
@@ -147,7 +146,7 @@ previous.addEventListener('click', (e)=>{
 })
 next.addEventListener('click', (e)=>{
     e.preventDefault();
-    if(videoNumber == 15){
+    if(videoNumber == videos.length-1){
         videoNumber = 0;
         activeVideo(videoNumber)  
     }else{
