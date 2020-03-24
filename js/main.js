@@ -86,13 +86,13 @@ const videos = [
     },
     {
         title: 'rood-kamer',
-        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast Ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
+        text: '"Samen met zijn vrienden en de rugzakjes vol zuurstof haast Ery zich naar het lichaam. Zuurstof is namelijk essentieel voor de werking van het lichaam. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
         img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/399308161'
     },
     {
         title: 'rood-kamer-ani',
-        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast Ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
+        text: '"Samen met zijn vrienden en de rugzakjes vol zuurstof haast Ery zich naar het lichaam. Zuurstof is namelijk essentieel voor de werking van het lichaam. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/399212070'
     },
