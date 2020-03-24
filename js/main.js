@@ -44,13 +44,13 @@ const videos = [
     },
     {
         title: 'overview',
-        text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
+        text: '"De weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
         img: 'images/mascot/Pomp-Blauw.png',
         src: 'https://player.vimeo.com/video/399313327'
     },
     {
         title: 'De longen',
-        text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
+        text: '"De weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
         img: 'images/mascot/DeLongen.png',
         src: 'https://player.vimeo.com/video/399201713'
     },
@@ -68,7 +68,7 @@ const videos = [
     },
     {
         title: 'rood-kleppen-ani',
-        text: '"Is iedereen nog mee? de mitralisklep sluit zich en het is weer tijd voor het spannende deel. Net zoals bij de rechter kamer gaan de deurtjes open en dicht."',
+        text: '"Is iedereen nog mee? de mitralisklep sluit zich en het is weer tijd voor het spannende deel."',
         img: 'images/mascot/Linkerkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399225762'
     },
@@ -79,20 +79,20 @@ const videos = [
         src: 'https://player.vimeo.com/video/399234893'
     },
     {
-        title: 'Rood-pom-ani',
-        text: '"De linker kamer begint samen te trekken en wordt steeds kleiner. Alle bloedcellen worden opnieuw dichter op elkaar gedrukt. Ja, ook de linker kamer is een pomp die de bloedcellen onder hoge snelheid wegpompt. Alleen gaat de tocht nu richting het lichaam.  "',
+        title: 'Rood-kamer-ani',
+        text: '"De linker kamer begint samen te trekken en wordt steeds kleiner. Alle bloedcellen worden opnieuw dichter op elkaar gedrukt. Ja, ook de linker kamer is een pomp die de bloedcellen onder hoge snelheid wegpompt. Alleen gaat de tocht nu richting het lichaam.Door de hoge druk van de pomp vliegt de klapdeur aan de uitgang van de linker kamer, de aortaklep, open. De weg naar het lichaam ligt voor hen open. Laten we gaan, vlug!  "',
         img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/399223089'
     },
     {
         title: 'rood-kamer',
-        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken we weer, met een volle rugzak vol CO2 richting de longen"',
+        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast Ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
         img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/399308161'
     },
     {
         title: 'rood-kamer-ani',
-        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken we weer, met een volle rugzak vol CO2 richting de longen."',
+        text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast Ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. Ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken ze weer, met een volle rugzak vol CO2 richting de longen."',
         img: 'images/mascot/NaarHetLichaam-scherm.png',
         src: 'https://player.vimeo.com/video/399212070'
     },
