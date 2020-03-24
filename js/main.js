@@ -14,13 +14,13 @@ const videos = [
     },
     {
         title: 'Blauw-voorkamer-ani',
-        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer. "',
+        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht Ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer.  "',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/399157811'
     },
     {
         title: 'blauw-voorkamer-3D',
-        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer. "',
+        text: '"De eerste halte op zijn tocht is de rechter voorkamer van het hart. Hier wacht Ery eventjes tot al zijn vrienden zich hebben verzameld. Als iedereen is aangekomen en de voorkamer helemaal vol is, is het tijd om door te schuiven naar de rechter kamer.  "',
         img: 'images/mascot/Rechtervoorkamer-scherm.png',
         src: 'https://player.vimeo.com/video/395341949'
     },
@@ -134,7 +134,7 @@ videoText.innerHTML = '<p>' + videos[videoNumber].text + '</p>';
 previous.addEventListener('click', (e)=>{
     e.preventDefault();
     if(videoNumber == 0){
-        videoNumber = 13;
+        videoNumber = 15;
         activeVideo(videoNumber)
     }else{
         videoNumber-- ;   
@@ -147,7 +147,7 @@ previous.addEventListener('click', (e)=>{
 })
 next.addEventListener('click', (e)=>{
     e.preventDefault();
-    if(videoNumber == 13){
+    if(videoNumber == 15){
         videoNumber = 0;
         activeVideo(videoNumber)  
     }else{
