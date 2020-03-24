@@ -25,6 +25,18 @@ const videos = [
         src: 'https://player.vimeo.com/video/395341949'
     },
     {
+        title: 'blauw-kleppen-ani',
+        text: '"Iedereen goed aangekomen? Als al zijn vriendjes zijn doorgeschoven naar de rechter kamer, gaat de klapdeur weer dicht."',
+        img: 'images/mascot/Rechterkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/399167826'
+    },
+    {
+        title: 'blauw-kleppen-3D',
+        text: '"Hier worden de blauwe kleppen open en dicht geslaan zoals onze saloondeurtjes en worden de bloedcellen gereed gemaakt om naar de longen te vertrekken."',
+        img: 'images/mascot/Rechterkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/399103996'
+    },
+    {
         title: 'Pomp-blauw-ani',
         text: '"En dan gebeurt er iets spannends: de rechter kamer begint samen te trekken en de kamer wordt steeds kleiner en kleiner. Alle bloedcellen worden dichter op elkaar gedrukt en dan vliegt de deur van de longslagaderklep open. De rechter kamer heeft hen met een grote kracht weggeduwd. De rechter kamer is net een fietspomp. Via de longslagader reizen ze nu pijlsnel richting de longen."',
         img: 'images/mascot/Pomp-Blauw.png',
@@ -33,7 +45,7 @@ const videos = [
     {
         title: 'overview',
         text: '"de weg door het hart wordt smaller en smaller.Eindelijk,  zijn ze aangekomen bij het wisselstation. Hier kunnen ze hun vuile CO2 afleveren en ruilen voor propere zuurstof. Rugzakjes leeg en onmiddellijk weer vol. "',
-        img: 'images/mascot/DeLongen.png',
+        img: 'images/mascot/Pomp-Blauw.png',
         src: 'https://player.vimeo.com/video/399313327'
     },
     {
@@ -55,6 +67,18 @@ const videos = [
         src: 'https://player.vimeo.com/video/395341613'
     },
     {
+        title: 'rood-kleppen-ani',
+        text: '"Is iedereen nog mee? de mitralisklep sluit zich en het is weer tijd voor het spannende deel. Net zoals bij de rechter kamer gaan de deurtjes open en dicht."',
+        img: 'images/mascot/Linkerkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/399225762'
+    },
+    {
+        title: 'rood-kleppen-3D',
+        text: '"In tegenstelling tot de blauwe kleppen worden de rode kleppen gebruikt om bloedcellen door te laten en gereed te stellen om te vertrekken naar de rest van het lichaam."',
+        img: 'images/mascot/Linkerkamer-scherm.png',
+        src: 'https://player.vimeo.com/video/399234893'
+    },
+    {
         title: 'Rood-pom-ani',
         text: '"De linker kamer begint samen te trekken en wordt steeds kleiner. Alle bloedcellen worden opnieuw dichter op elkaar gedrukt. Ja, ook de linker kamer is een pomp die de bloedcellen onder hoge snelheid wegpompt. Alleen gaat de tocht nu richting het lichaam.  "',
         img: 'images/mascot/Pomp-rood.png',
@@ -63,7 +87,7 @@ const videos = [
     {
         title: 'rood-kamer',
         text: '"Samen met zijn vriendjes en onze rugzakjes vol zuurstof haast ery zich naar het lichaam. Dat heeft onze zuurstof hard nodig om goed te kunnen werken. ze reizen naar je tenen, je vingers, je hoofd, je darmen … Iedereen wordt voorzien van de juiste hoeveelheid zuurstof. In ruil mogen we onze rugzakken weer vullen met CO2. En zo vertrekken we weer, met een volle rugzak vol CO2 richting de longen"',
-        img: 'images/mascot/NaarHetLichaam-scherm.png',
+        img: 'images/mascot/Pomp-rood.png',
         src: 'https://player.vimeo.com/video/399308161'
     },
     {
@@ -172,6 +196,18 @@ const activeVideo = (key) => {
             break;
         case 11:
             display.innerHTML = "<iframe id='currentVideo' src='" + videos[11].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 12:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[12].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 13:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[13].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 14:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[14].src+ "?autoplay=1' allow='autoplay' ></iframe>"
+            break;
+        case 15:
+            display.innerHTML = "<iframe id='currentVideo' src='" + videos[15].src+ "?autoplay=1' allow='autoplay' ></iframe>"
             break;
         }
 }
