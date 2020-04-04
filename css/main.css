@@ -111,7 +111,7 @@ header #Ugent-logo{
     padding-top:5vh;
 }
 #infoVideos .infoVideo{
-    max-width:40%;
+    width:40%;
     float:left;
     margin: 0% 5%;
 }
@@ -128,6 +128,7 @@ header #Ugent-logo{
 }
 .infoVideoText p{
     margin-top:3%;
+    
 }
 #footer{
     font-family: UZGNormal;
