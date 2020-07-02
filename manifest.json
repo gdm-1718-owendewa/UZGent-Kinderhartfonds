@@ -5,5 +5,7 @@
     "start_url": "https://gdm-1718-owendewa.github.io/UZGent-Kinderhartfonds/",
     "display": "fullscreen",
     "orientation": "portrait",
-    "lang": "Dutch"
+    "lang": "Dutch",
+    "background_color": "transparent"
+
 }
