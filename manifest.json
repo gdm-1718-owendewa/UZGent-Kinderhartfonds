@@ -1,11 +1,9 @@
 {
-    "name": "AR_tattoo",
-    "short_name": "ART",
-    "description": "testapp",
-    "theme_color": "#2196f3",
-    "background_color": "#2196f3",
+    "name": "Testapp",
+    "short_name": "TA",
+    "description": "dit is een testapp",
+    "start_url": "https://gdm-1718-owendewa.github.io/UZGent-Kinderhartfonds/",
     "display": "fullscreen",
     "orientation": "portrait",
-    "Scope": "/",
-    "start_url": "/"
-  }
+    "lang": "Dutch"
+}
